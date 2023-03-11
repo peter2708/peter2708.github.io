@@ -1,5 +1,11 @@
 <!DOCTYPE html>
 <html>
+<head>
+  <script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Paragraph changed.";
+}
+</script></head>
 <body>
 <h1>Hello World</h1>
 <hr>
@@ -10,10 +16,10 @@
 <h1>New file</h1>
 Within Docs
 <h2>Adding Javascript</h2>
-<script>
-  ellipse(200,200,150,200);
-ellipse(200,100,100,100);
-</script>
+<p id="demo">A Paragraph</p>
+<button type="button" onclick="myFunction()">Try it</button>
+
+
 
 <p>I'm hosted with GitHub Pages.</p>
 </body>
